@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+
+<ruleset name="Clean Code Rules"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+    <description>
+        My clean code rules.
+    </description>
+
+    <rule ref="category/java/design.xml/DataClass" />
+    <rule ref="category/java/design.xml/LawOfDemeter" />
+    <rule ref="category/java/design.xml/ExcessiveParameterList">
+        <properties>
+            <property name="minimum" value="3" />
+        </properties>
+    </rule>
+    <rule ref="category/java/design.xml/CyclomaticComplexity">
+        <properties>
+            <property name="classReportLevel" value="60" />
+            <property name="methodReportLevel" value="5" />
+            <property name="cycloOptions" value="" />
+        </properties>
+    </rule>
+    <rule name="FavorDependencyInjectionOverDirectInstantiation"
+        language="java"
+        message="Avoid direct instantiation of classes to reduce coupling of your class."
+        class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+        <description>
+        </description>
+        <priority>3</priority>
+        <properties>
+            <property name="xpath">
+                <value>
+<![CDATA[
+//AllocationExpression
+]]>
+       </value>
+            </property>
+        </properties>
+    </rule>
+    <rule name="PrimitiveObsession"
+        language="java"
+        message="Replace primitives with domain objects."
+        class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+        <description>
+
+   </description>
+        <priority>3</priority>
+        <properties>
+            <property name="xpath">
+                <value>
+<![CDATA[
+//FieldDeclaration/Type/PrimitiveType |
+//MethodDeclarator/FormalParameters/FormalParameter/Type/PrimitiveType
+]]>
+         </value>
+            </property>
+        </properties>
+    </rule>
+    <rule name="AvoidPublicClasses"
+        language="java"
+        message="Avoid public classes to increase encapsulation."
+        class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+        <description>
+
+   </description>
+        <priority>3</priority>
+        <properties>
+            <property name="xpath">
+                <value>
+<![CDATA[
+//ClassOrInterfaceDeclaration[@Public = true() and @Interface = false()]
+]]>
+         </value>
+            </property>
+        </properties>
+    </rule>
+    <rule ref="category/java/design.xml/AvoidDeeplyNestedIfStmts">
+        <properties>
+            <property name="problemDepth" value="2" />
+        </properties>
+    </rule>
+    <rule name="PreferStaticFactoryOverPublicConstructor"
+        language="java"
+        message="Prefer static factory methods over public constructors."
+        class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+        <description>
+
+   </description>
+        <priority>3</priority>
+        <properties>
+            <property name="xpath">
+                <value>
+<![CDATA[
+//ConstructorDeclaration[@Public = true()]
+]]>
+         </value>
+            </property>
+        </properties>
+    </rule>
+    <rule name="ConsiderBuilderPatternOnHighArityConstructors"
+      language="java"
+      message="Consider using a Builder Pattern when having constructors with many parameters. "
+      class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+   <description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//ConstructorDeclaration[@Arity > 4]
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+
+</ruleset>
