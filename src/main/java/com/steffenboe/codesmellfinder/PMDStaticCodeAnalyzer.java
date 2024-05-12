@@ -1,6 +1,5 @@
 package com.steffenboe.codesmellfinder;
 
-import java.io.File;
 import java.nio.file.Path;
 import java.util.List;
 

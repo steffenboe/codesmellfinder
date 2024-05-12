@@ -3,8 +3,6 @@ package com.steffenboe.codesmellfinder;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.greaterThan;
 
-import java.nio.file.Files;
-
 import org.junit.jupiter.api.Test;
 
 class RepositoryTest {

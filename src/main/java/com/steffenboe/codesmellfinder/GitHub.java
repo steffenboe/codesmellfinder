@@ -15,21 +15,30 @@ import com.squareup.okhttp.Request;
 
 class GitHub {
 
-    private RestClient restClient;
+    private final RestClient restClient;
     private static final Logger LOG = LoggerFactory.getLogger(GitHub.class);
 
     GitHub(RestClient restClient) {
         this.restClient = restClient;
     }
 
-    private static final String GITHUB_PAT = "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";
-
+    /**
+     * Finds a random Git-Repository containing at least one Code Smell
+     * 
+     * @return a {@link GitRepository} containing at least one Code Smell, or empty
+     *         if not found
+     * @throws IOException
+     */
     Optional<GitRepository> findRandom() throws IOException {
         LOG.info("Starting repository scan...");
-        String url = buildSearchUrl();
-        Request request = buildRequest(url);
-        JSONArray items = getResponse(restClient, request);
-        List<GitRepository> repositories = getRepositoriesFromResponse(items);
+        String url = searchUrl();
+        Request request = request(url);
+        JSONArray items = response(restClient, request);
+        List<GitRepository> gitRepositories = getRepositoriesFromResponse(items);
+        return searchForCodeSmells(gitRepositories);
+    }
+
+    private Optional<GitRepository> searchForCodeSmells(List<GitRepository> repositories) {
         for (GitRepository gitRepository : repositories) {
             LOG.info("Scanning repo {} for codesmells...", gitRepository.name());
             if (gitRepository.find().size() > 0) {
@@ -38,23 +47,22 @@ class GitHub {
             }
         }
         return Optional.empty();
-
     }
 
     private List<GitRepository> getRepositoriesFromResponse(JSONArray items) {
         List<GitRepository> repositories = new ArrayList<>();
         for (int i = 0; i < items.length(); i++) {
-            addRepositoryFromResponse(items, repositories, i);
+            repositories.add(repositoryFromResponse(items, i));
         }
         return repositories;
     }
 
-    private void addRepositoryFromResponse(JSONArray items, List<GitRepository> repositories, int i) {
+    private GitRepository repositoryFromResponse(JSONArray items, int i) {
         JSONObject repository = items.getJSONObject(i);
-        repositories.add(new GitRepository(repository.getString("name"), repository.getString("clone_url")));
+        return new GitRepository(repository.getString("name"), repository.getString("clone_url"));
     }
 
-    private JSONArray getResponse(RestClient client, Request request) throws IOException {
+    private JSONArray response(RestClient client, Request request) throws IOException {
         String response = client.execute(request);
         LOG.debug("Calling {}", request.urlString());
         JSONObject jsonResponse = new JSONObject(response);
@@ -62,18 +70,18 @@ class GitHub {
         return items;
     }
 
-    private Request buildRequest(String url) {
-        Request request = new Request.Builder()
+    private Request request(String url) {
+        return new Request.Builder()
                 .url(url)
-                .addHeader("Authorization", "token " + GITHUB_PAT)
                 .build();
-        return request;
     }
 
-    private String buildSearchUrl() {
+    private String searchUrl() {
         HttpUrl.Builder urlBuilder = HttpUrl.parse("https://api.github.com/search/repositories").newBuilder();
         urlBuilder.addQueryParameter("q", "language:java");
-        urlBuilder.addQueryParameter("per_page", "10");
+        urlBuilder.addQueryParameter("per_page", "30");
+        urlBuilder.addQueryParameter("sort", "stars");
+        urlBuilder.addQueryParameter("order", "desc");
         return urlBuilder.build().toString();
     }
 }
