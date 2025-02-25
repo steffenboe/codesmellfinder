@@ -14,7 +14,10 @@ class CodeSmellFinderTest {
 
     @Test
     void shouldFindCodeSmellsFromRepository() throws IOException {
-        GitHub githubScanner = new GitHub(new RestClient(new OkHttpClient()));
+        GitHub githubScanner = new GitHub(
+                new RestClient(
+                        new OkHttpClient()),
+                new PMDStaticCodeAnalyzer("src/main/resources/rulesets/custom-ruleset.xml"));
         Optional<GitRepository> repository = githubScanner.findRandom();
         assertThat(repository.isPresent(), is(true));
     }

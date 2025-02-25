@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<ruleset name="Clean Code Rules"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+    <description>
+        My clean code rules.
+    </description>
+
+    <rule ref="category/java/design.xml/DataClass" />
+
+    <rule ref="category/java/design.xml/CyclomaticComplexity">
+        <properties>
+            <property name="classReportLevel" value="60" />
+            <property name="methodReportLevel" value="5" />
+            <property name="cycloOptions" value="" />
+        </properties>
+    </rule>
+
+    <rule ref="category/java/design.xml/AvoidDeeplyNestedIfStmts">
+        <properties>
+            <property name="problemDepth" value="2" />
+        </properties>
+    </rule>
+
+</ruleset>

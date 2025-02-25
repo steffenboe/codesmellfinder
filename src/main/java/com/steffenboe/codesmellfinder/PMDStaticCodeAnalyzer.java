@@ -8,13 +8,22 @@ import org.slf4j.LoggerFactory;
 
 import net.sourceforge.pmd.PMDConfiguration;
 import net.sourceforge.pmd.PmdAnalysis;
-import net.sourceforge.pmd.lang.LanguageRegistry;
 import net.sourceforge.pmd.lang.rule.RulePriority;
 import net.sourceforge.pmd.reporting.Report;
 
 class PMDStaticCodeAnalyzer {
 
     private static final Logger LOG = LoggerFactory.getLogger(PMDStaticCodeAnalyzer.class);
+
+    private String pmdConfigFile;
+
+    PMDStaticCodeAnalyzer(String pmdConfigFile) {
+        this.pmdConfigFile = pmdConfigFile;
+    }
+
+    PMDStaticCodeAnalyzer() {
+        this.pmdConfigFile = "src/main/resources/rulesets/custom-ruleset.xml";
+    }
 
     /**
      * Executes a static code analysis on the given path.
@@ -45,12 +54,11 @@ class PMDStaticCodeAnalyzer {
 
     PMDConfiguration configurePmd(String repositoryDirectory) {
         PMDConfiguration config = new PMDConfiguration();
-        config.setDefaultLanguageVersion(LanguageRegistry.PMD.getLanguageVersionById("java", "17"));
         config.addInputPath(Path.of(repositoryDirectory));
         config.setMinimumPriority(RulePriority.LOW);
-        config.addRuleSet("src/main/resources/custom-ruleset.xml");
+        config.addRuleSet(pmdConfigFile);
         config.setReportFormat("xml");
-        config.setReportFile(Path.of("target/pmd-report.xml"));
+        config.setReportFile(Path.of("pmd-report.xml"));
         return config;
     }
 

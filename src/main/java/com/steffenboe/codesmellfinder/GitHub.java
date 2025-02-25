@@ -17,9 +17,11 @@ class GitHub {
 
     private final RestClient restClient;
     private static final Logger LOG = LoggerFactory.getLogger(GitHub.class);
+    private PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer;
 
-    GitHub(RestClient restClient) {
+    GitHub(RestClient restClient, PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer) {
         this.restClient = restClient;
+        this.pmdStaticCodeAnalyzer = pmdStaticCodeAnalyzer;
     }
 
     /**
@@ -41,8 +43,8 @@ class GitHub {
     private Optional<GitRepository> searchForCodeSmells(List<GitRepository> repositories) {
         for (GitRepository gitRepository : repositories) {
             LOG.info("Scanning repo {} for codesmells...", gitRepository.name());
-            if (gitRepository.find().size() > 0) {
-                LOG.info("Found repo with code smells: {}", gitRepository.name());
+            if (gitRepository.findAndScan().size() > 0) {
+                LOG.info("Found repo with code smells: {}", gitRepository.url());
                 return Optional.of(gitRepository);
             }
         }
@@ -59,7 +61,7 @@ class GitHub {
 
     private GitRepository repositoryFromResponse(JSONArray items, int i) {
         JSONObject repository = items.getJSONObject(i);
-        return new GitRepository(repository.getString("name"), repository.getString("clone_url"));
+        return new GitRepository(repository.getString("name"), repository.getString("clone_url"), pmdStaticCodeAnalyzer);
     }
 
     private JSONArray response(RestClient client, Request request) throws IOException {
@@ -82,6 +84,8 @@ class GitHub {
         urlBuilder.addQueryParameter("per_page", "30");
         urlBuilder.addQueryParameter("sort", "stars");
         urlBuilder.addQueryParameter("order", "desc");
+        int randomPage = (int) (Math.random() * 10) + 1;
+        urlBuilder.addQueryParameter("page", String.valueOf(randomPage));
         return urlBuilder.build().toString();
     }
 }

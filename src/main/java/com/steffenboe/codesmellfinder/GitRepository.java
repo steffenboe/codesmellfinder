@@ -21,11 +21,11 @@ class GitRepository {
     private final String url;
 
     private static final Logger LOG = LoggerFactory.getLogger(GitRepository.class);
-
-    GitRepository(String name, String url) {
+    
+    GitRepository(String name, String url, PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer) {
         this.name = name;
         this.url = url;
-        this.staticCodeAnalyzer = new PMDStaticCodeAnalyzer();
+        this.staticCodeAnalyzer = pmdStaticCodeAnalyzer;
     }
 
     /**
@@ -33,7 +33,7 @@ class GitRepository {
      * 
      * @return rule violations detected by PMD
      */
-    public List<CodeSmell> find() {
+    public List<CodeSmell> findAndScan() {
         String repositoryDirectory = cloneRepo();
         LOG.info("Cloned " + repositoryDirectory);
         List<CodeSmell> codeSmells = staticCodeAnalyzer.analyze(repositoryDirectory);
@@ -81,6 +81,10 @@ class GitRepository {
 
     public String name() {
         return name;
+    }
+
+    public String url() {
+        return url;
     }
 
 }

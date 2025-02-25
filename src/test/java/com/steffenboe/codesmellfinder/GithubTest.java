@@ -35,7 +35,7 @@ class GithubTest {
         items.add(new JSONObject().put("clone_url", "testrepo.git"));
         jsonObject.put("items", new JSONArray(items));
         when(restClient.execute(any())).thenReturn(jsonObject.toString());
-        GitHub github = new GitHub(restClient);
+        GitHub github = new GitHub(restClient, new PMDStaticCodeAnalyzer());
         Optional<GitRepository> repository = github.findRandom();
         assertThat(repository.get().name(), not(blankOrNullString()));
     }
