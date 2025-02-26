@@ -9,7 +9,7 @@
         My clean code rules.
     </description>
 
-    <rule ref="category/java/design.xml/DataClass" />
+    <rule ref="category/java/design.xml/GodClass" />
 
     <rule ref="category/java/design.xml/CyclomaticComplexity">
         <properties>
@@ -21,7 +21,7 @@
 
     <rule ref="category/java/design.xml/AvoidDeeplyNestedIfStmts">
         <properties>
-            <property name="problemDepth" value="2" />
+            <property name="problemDepth" value="3" />
         </properties>
     </rule>
 
