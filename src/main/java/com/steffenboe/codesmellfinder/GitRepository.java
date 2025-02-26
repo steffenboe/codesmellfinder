@@ -54,19 +54,21 @@ class GitRepository {
         File file = Path.of(tmpdir, name).toFile();
 
         if (file.exists()) {
-            try {
-                FileUtils.deleteDirectory(file);
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
+            delete(file);
         }
+        executeCloneCommand(file);
+        return file.getPath();
+    }
 
+    private void executeCloneCommand(File file) {
         CloneCommand cloneCommand = Git
                 .cloneRepository()
                 .setDirectory(file)
                 .setURI(url);
+        call(cloneCommand);
+    }
 
+    private void call(CloneCommand cloneCommand) {
         try (Git git = cloneCommand.call()) {
 
         } catch (InvalidRemoteException invalidRemoteException) {
@@ -76,7 +78,14 @@ class GitRepository {
         } catch (GitAPIException gitAPIException) {
             LOG.error(gitAPIException.getMessage());
         }
-        return file.getPath();
+    }
+
+    private void delete(File file) {
+        try {
+            FileUtils.deleteDirectory(file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public String name() {
