@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.10.0" timestamp="2025-02-26T17:21:38.062">
+<file name="/tmp/Aegis/app/src/androidTest/java/com/beemdevelopment/aegis/AegisTest.java">
+<violation beginline="99" endline="99" begincolumn="29" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="AegisTest" method="initVault" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'initVault(VaultFileCredentials, List&lt;VaultEntry&gt;)' has a cyclomatic complexity of 7.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/androidTest/java/com/beemdevelopment/aegis/BackupExportTest.java">
+<violation beginline="87" endline="87" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis" class="BackupExportTest" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=49, ATFD=46, TCC=0.000%)
+</violation>
+<violation beginline="352" endline="352" begincolumn="29" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="BackupExportTest" method="readVault" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'readVault(File, String)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="394" endline="394" begincolumn="18" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="BackupExportTest" method="checkHtmlExport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'checkHtmlExport(File)' has a cyclomatic complexity of 7.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/androidTest/java/com/beemdevelopment/aegis/OverallTest.java">
+<violation beginline="73" endline="73" begincolumn="17" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="OverallTest" method="testOverall" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'testOverall()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="187" endline="187" begincolumn="18" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="OverallTest" method="addEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'addEntry(VaultEntry)' has a cyclomatic complexity of 11.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/amulyakhare/textdrawable/TextDrawable.java">
+<violation beginline="71" endline="71" begincolumn="17" endcolumn="21" rule="CyclomaticComplexity" ruleset="Design" package="com.amulyakhare.textdrawable" class="TextDrawable" method="draw" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'draw(Canvas)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/EventType.java">
+<violation beginline="22" endline="22" begincolumn="23" endcolumn="39" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="EventType" method="getEventTitleRes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getEventTitleRes(EventType)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/AegisBackupAgent.java">
+<violation beginline="43" endline="43" begincolumn="30" endcolumn="42" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="AegisBackupAgent" method="onFullBackup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onFullBackup(FullBackupDataOutput)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="130" endline="130" begincolumn="18" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="AegisBackupAgent" method="createBackupDir" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'createBackupDir()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/GroupPlaceholderType.java">
+<violation beginline="8" endline="8" begincolumn="16" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="GroupPlaceholderType" method="getStringRes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getStringRes()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/PassReminderFreq.java">
+<violation beginline="14" endline="14" begincolumn="17" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="PassReminderFreq" method="getDurationMillis" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getDurationMillis()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="38" endline="38" begincolumn="16" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="PassReminderFreq" method="getStringRes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getStringRes()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/SortCategory.java">
+<violation beginline="31" endline="31" begincolumn="35" endcolumn="48" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="SortCategory" method="getComparator" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getComparator()' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="57" endline="57" begincolumn="16" endcolumn="27" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="SortCategory" method="getMenuItem" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getMenuItem()' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ViewMode.java">
+<violation beginline="22" endline="22" begincolumn="16" endcolumn="27" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="ViewMode" method="getLayoutId" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getLayoutId()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/Preferences.java">
+<violation beginline="33" endline="33" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="Preferences" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'Preferences' has a total cyclomatic complexity of 137 (highest 6).
+</violation>
+<violation beginline="435" endline="435" begincolumn="17" endcolumn="44" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="Preferences" method="getLatestBackupOrExportTime" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getLatestBackupOrExportTime()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="491" endline="491" begincolumn="37" endcolumn="59" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="Preferences" method="getErroredBackupResult" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getErroredBackupResult()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="588" endline="588" begincolumn="22" endcolumn="36" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis" class="Preferences" method="getGroupFilter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getGroupFilter()' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/crypto/KeyStoreHandle.java">
+<violation beginline="47" endline="47" begincolumn="22" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.crypto" class="KeyStoreHandle" method="generateKey" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'generateKey(String)' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="77" endline="77" begincolumn="22" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.crypto" class="KeyStoreHandle" method="getKey" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getKey(String)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/crypto/bc/Salsa20Engine.java">
+<violation beginline="32" endline="32" begincolumn="24" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.crypto.bc" class="Salsa20Engine" method="salsaCore" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'salsaCore(int, int[], int[])' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/crypto/bc/SCrypt.java">
+<violation beginline="57" endline="57" begincolumn="26" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.crypto.bc" class="SCrypt" method="generate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'generate(byte[], byte[], int, int, int, int)' has a cyclomatic complexity of 18.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/helpers/BiometricSlotInitializer.java">
+<violation beginline="45" endline="45" begincolumn="17" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.helpers" class="BiometricSlotInitializer" method="authenticate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'authenticate(PromptInfo)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/helpers/FabScrollHelper.java">
+<violation beginline="18" endline="18" begincolumn="17" endcolumn="25" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.helpers" class="FabScrollHelper" method="onScroll" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onScroll(int, int)' has a cyclomatic complexity of 7.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/helpers/SafHelper.java">
+<violation beginline="16" endline="16" begincolumn="26" endcolumn="37" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.helpers" class="SafHelper" method="getFileName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getFileName(Context, Uri)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="21" endline="23" begincolumn="21" endcolumn="22" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.beemdevelopment.aegis.helpers" class="SafHelper" method="getFileName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/helpers/QrCodeHelper.java">
+<violation beginline="42" endline="42" begincolumn="26" endcolumn="42" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.helpers" class="QrCodeHelper" method="decodeFromStream" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'decodeFromStream(InputStream)' has a cyclomatic complexity of 7.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/helpers/TextDrawableHelper.java">
+<violation beginline="39" endline="39" begincolumn="32" endcolumn="40" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.helpers" class="TextDrawableHelper" method="generate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'generate(String, String, View)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/helpers/SimpleItemTouchHelperCallback.java">
+<violation beginline="55" endline="55" begincolumn="16" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.helpers" class="SimpleItemTouchHelperCallback" method="getMovementFlags" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getMovementFlags(RecyclerView, ViewHolder)' has a cyclomatic complexity of 7.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/helpers/ThemeHelper.java">
+<violation beginline="44" endline="44" begincolumn="18" endcolumn="36" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.helpers" class="ThemeHelper" method="getConfiguredTheme" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getConfiguredTheme()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/icons/IconPack.java">
+<violation beginline="56" endline="56" begincolumn="23" endcolumn="40" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.icons" class="IconPack" method="getSuggestedIcons" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getSuggestedIcons(String)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="176" endline="176" begincolumn="27" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.icons" class="Icon" method="getMatchFor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getMatchFor(String)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/icons/IconType.java">
+<violation beginline="26" endline="26" begincolumn="28" endcolumn="40" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.icons" class="IconType" method="fromFilename" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fromFilename(String)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="41" endline="41" begincolumn="19" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.icons" class="IconType" method="toMimeType" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toMimeType()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/icons/IconPackManager.java">
+<violation beginline="64" endline="64" begincolumn="21" endcolumn="31" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.icons" class="IconPackManager" method="importPack" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'importPack(File)' has a cyclomatic complexity of 21.
+</violation>
+<violation beginline="132" endline="132" begincolumn="18" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.icons" class="IconPackManager" method="rescanIconPacks" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'rescanIconPacks()' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="182" endline="182" begincolumn="25" endcolumn="44" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.icons" class="IconPackManager" method="getLatestVersionDir" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getLatestVersionDir(File)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="209" endline="209" begincolumn="25" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.icons" class="IconPackManager" method="deleteDir" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'deleteDir(File)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/AegisImporter.java">
+<violation beginline="133" endline="133" begincolumn="23" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedState" method="convert" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convert()' has a cyclomatic complexity of 11.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/AndOtpImporter.java">
+<violation beginline="96" endline="96" begincolumn="32" endcolumn="46" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="EncryptedState" method="decryptContent" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'decryptContent(SecretKey, int)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="117" endline="117" begincolumn="34" endcolumn="56" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="EncryptedState" method="getKeyDerivationParams" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getKeyDerivationParams(char[])' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="212" endline="212" begincolumn="23" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedState" method="convert" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convert()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="230" endline="230" begincolumn="35" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedState" method="convertEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convertEntry(JSONObject)' has a cyclomatic complexity of 9.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/AuthenticatorPlusImporter.java">
+<violation beginline="47" endline="47" begincolumn="25" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="EncryptedState" method="decrypt" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'decrypt(char[])' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/BattleNetImporter.java">
+<violation beginline="47" endline="47" begincolumn="21" endcolumn="25" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="BattleNetImporter" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(InputStream, boolean)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/AuthyImporter.java">
+<violation beginline="71" endline="71" begincolumn="18" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="AuthyImporter" method="readFromApp" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'readFromApp(Shell)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="101" endline="101" begincolumn="18" endcolumn="22" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="AuthyImporter" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(InputStream, boolean)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="123" endline="123" begincolumn="19" endcolumn="23" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="AuthyImporter" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(JSONArray)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="165" endline="165" begincolumn="34" endcolumn="41" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="EncryptedState" method="decrypt" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'decrypt(char[])' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="227" endline="227" begincolumn="23" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedState" method="convert" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convert()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="247" endline="247" begincolumn="35" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedState" method="convertEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convertEntry(JSONObject)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="273" endline="273" begincolumn="29" endcolumn="46" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedState" method="sanitizeEntryInfo" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'sanitizeEntryInfo(AuthyEntryInfo, boolean)' has a cyclomatic complexity of 7.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/BitwardenImporter.java">
+<violation beginline="42" endline="42" begincolumn="21" endcolumn="25" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="BitwardenImporter" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(InputStream, boolean)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/DuoImporter.java">
+<violation beginline="61" endline="61" begincolumn="32" endcolumn="39" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedState" method="convert" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convert()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="80" endline="80" begincolumn="44" endcolumn="56" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedState" method="convertEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convertEntry(JSONObject)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/FreeOtpPlusImporter.java">
+<violation beginline="33" endline="33" begincolumn="18" endcolumn="22" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="FreeOtpPlusImporter" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(InputStream, boolean)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/GoogleAuthImporter.java">
+<violation beginline="96" endline="96" begincolumn="35" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="State" method="convertEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convertEntry(Entry, Context)' has a cyclomatic complexity of 9.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/GoogleAuthUriImporter.java">
+<violation beginline="27" endline="27" begincolumn="40" endcolumn="44" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="GoogleAuthUriImporter" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(InputStream, boolean)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/MicrosoftAuthImporter.java">
+<violation beginline="62" endline="62" begincolumn="23" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="State" method="convert" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convert()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="80" endline="80" begincolumn="35" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="State" method="convertEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convertEntry(Entry)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/FreeOtpImporter.java">
+<violation beginline="87" endline="87" begincolumn="30" endcolumn="36" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="FreeOtpImporter" method="readV1" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'readV1(InputStream)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="128" endline="128" begincolumn="17" endcolumn="31" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="EncryptedState" method="EncryptedState" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'EncryptedState(JSONObject, Map&lt;String, String&gt;)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="215" endline="215" begincolumn="23" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedStateV2" method="convert" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convert()' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="239" endline="239" begincolumn="28" endcolumn="40" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedStateV2" method="convertEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convertEntry(JSONObject, JSONObject)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="298" endline="298" begincolumn="35" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedStateV1" method="convertEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convertEntry(JSONObject)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="332" endline="332" begincolumn="27" endcolumn="37" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="FreeOtpImporter" method="parseNonce" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'parseNonce(byte[])' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="370" endline="370" begincolumn="43" endcolumn="48" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="SerializedHashMapParser" method="parse" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'parse(DataInputStream)' has a cyclomatic complexity of 9.
+</violation>
+<violation beginline="407" endline="407" begincolumn="29" endcolumn="49" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="SerializedHashMapParser" method="parseClassDescriptor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'parseClassDescriptor(DataInputStream)' has a cyclomatic complexity of 10.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/SqlImporterHelper.java">
+<violation beginline="31" endline="31" begincolumn="38" endcolumn="42" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="SqlImporterHelper" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(Class&lt;T&gt;, SuFile, String)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="99" endline="99" begincolumn="39" endcolumn="43" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="SqlImporterHelper" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(Class&lt;T&gt;, File, String)' has a cyclomatic complexity of 7.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/SteamImporter.java">
+<violation beginline="60" endline="60" begincolumn="18" endcolumn="22" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="SteamImporter" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(InputStream, boolean)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/StratumImporter.java">
+<violation beginline="94" endline="94" begincolumn="26" endcolumn="39" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="StratumImporter" method="readEncrypted" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'readEncrypted(DataInputStream)' has a cyclomatic complexity of 8.
+</violation>
+<violation beginline="114" endline="114" begincolumn="28" endcolumn="40" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="StratumImporter" method="parseOtpInfo" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'parseOtpInfo(int, byte[], Algorithm, int, int, int)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="284" endline="284" begincolumn="23" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="JsonState" method="convert" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convert()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/TotpAuthenticatorImporter.java">
+<violation beginline="70" endline="70" begincolumn="18" endcolumn="22" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="TotpAuthenticatorImporter" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(InputStream, boolean)' has a cyclomatic complexity of 8.
+</violation>
+<violation beginline="121" endline="121" begincolumn="34" endcolumn="41" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="EncryptedState" method="decrypt" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'decrypt(char[])' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="203" endline="203" begincolumn="35" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedState" method="convertEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convertEntry(JSONObject)' has a cyclomatic complexity of 7.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/importers/TwoFASImporter.java">
+<violation beginline="60" endline="60" begincolumn="18" endcolumn="22" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="TwoFASImporter" method="read" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'read(InputStream, boolean)' has a cyclomatic complexity of 8.
+</violation>
+<violation beginline="119" endline="119" begincolumn="31" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="EncryptedState" method="decrypt" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'decrypt(char[])' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="175" endline="175" begincolumn="35" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DecryptedState" method="convertEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'convertEntry(JSONObject)' has a cyclomatic complexity of 9.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/otp/GoogleAuthInfoException.java">
+<violation beginline="31" endline="31" begincolumn="19" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="GoogleAuthInfoException" method="getMessage" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getMessage()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/otp/GoogleAuthInfo.java">
+<violation beginline="22" endline="22" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="GoogleAuthInfo" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=90, ATFD=77, TCC=11.111%)
+</violation>
+<violation beginline="22" endline="22" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="GoogleAuthInfo" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'GoogleAuthInfo' has a total cyclomatic complexity of 90 (highest 38).
+</violation>
+<violation beginline="44" endline="44" begincolumn="34" endcolumn="42" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="GoogleAuthInfo" method="parseUri" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'parseUri(Uri)' has a cyclomatic complexity of 38.
+</violation>
+<violation beginline="179" endline="179" begincolumn="26" endcolumn="40" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="GoogleAuthInfo" method="parseExportUri" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'parseExportUri(Uri)' has a cyclomatic complexity of 31.
+</violation>
+<violation beginline="279" endline="279" begincolumn="16" endcolumn="22" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="GoogleAuthInfo" method="getUri" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getUri()' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="360" endline="360" begincolumn="37" endcolumn="54" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="Export" method="getMissingIndices" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getMissingIndices(List&lt;Export&gt;)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="399" endline="399" begincolumn="20" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="Export" method="getUri" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getUri()' has a cyclomatic complexity of 13.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/otp/MotpInfo.java">
+<violation beginline="34" endline="34" begincolumn="19" endcolumn="25" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="MotpInfo" method="getOtp" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getOtp(long)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/otp/OtpInfo.java">
+<violation beginline="107" endline="107" begincolumn="27" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="OtpInfo" method="fromJson" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fromJson(String, JSONObject)' has a cyclomatic complexity of 11.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/otp/YandexInfo.java">
+<violation beginline="41" endline="41" begincolumn="19" endcolumn="25" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="YandexInfo" method="getOtp" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getOtp(long)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="110" endline="110" begincolumn="24" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="YandexInfo" method="validateSecret" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'validateSecret(byte[])' has a cyclomatic complexity of 12.
+</violation>
+<violation beginline="164" endline="164" begincolumn="24" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.otp" class="YandexInfo" method="getNumberOfLeadingZeros" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getNumberOfLeadingZeros(char)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/receivers/VaultLockReceiver.java">
+<violation beginline="24" endline="24" begincolumn="17" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.receivers" class="VaultLockReceiver" method="onReceive" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onReceive(Context, Intent)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/AegisActivity.java">
+<violation beginline="201" endline="201" begincolumn="22" endcolumn="27" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="ActionModeStatusGuardHack" method="apply" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'apply(int)' has a cyclomatic complexity of 11.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/AuthActivity.java">
+<violation beginline="72" endline="72" begincolumn="20" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="AuthActivity" method="onCreate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onCreate(Bundle)' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="199" endline="199" begincolumn="17" endcolumn="25" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="AuthActivity" method="onResume" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onResume()' has a cyclomatic complexity of 7.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/AssignIconsActivity.java">
+<violation beginline="57" endline="57" begincolumn="20" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="AssignIconsActivity" method="onCreate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onCreate(Bundle)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/GroupManagerActivity.java">
+<violation beginline="36" endline="36" begincolumn="20" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="GroupManagerActivity" method="onCreate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onCreate(Bundle)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/ImportEntriesActivity.java">
+<violation beginline="262" endline="262" begincolumn="18" endcolumn="31" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="ImportEntriesActivity" method="saveAndFinish" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'saveAndFinish(boolean)' has a cyclomatic complexity of 14.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/EditEntryActivity.java">
+<violation beginline="97" endline="97" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="EditEntryActivity" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=108, ATFD=196, TCC=13.492%)
+</violation>
+<violation beginline="97" endline="97" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="EditEntryActivity" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'EditEntryActivity' has a total cyclomatic complexity of 108 (highest 37).
+</violation>
+<violation beginline="162" endline="162" begincolumn="20" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="EditEntryActivity" method="onCreate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onCreate(Bundle)' has a cyclomatic complexity of 18.
+</violation>
+<violation beginline="532" endline="532" begincolumn="20" endcolumn="41" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="EditEntryActivity" method="onOptionsItemSelected" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onOptionsItemSelected(MenuItem)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="714" endline="714" begincolumn="24" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="EditEntryActivity" method="parseEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'parseEntry()' has a cyclomatic complexity of 37.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/IntroActivity.java">
+<violation beginline="45" endline="45" begincolumn="23" endcolumn="43" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="IntroActivity" method="onBeforeSlideChanged" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onBeforeSlideChanged(Class&lt;? extends SlideFragment&gt;, Class&lt;? extends SlideFragment&gt;)' has a cyclomatic complexity of 8.
+</violation>
+<violation beginline="86" endline="86" begincolumn="20" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="IntroActivity" method="onDonePressed" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onDonePressed()' has a cyclomatic complexity of 16.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/PanicResponderActivity.java">
+<violation beginline="19" endline="19" begincolumn="20" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="PanicResponderActivity" method="onCreate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onCreate(Bundle)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/PreferencesActivity.java">
+<violation beginline="24" endline="24" begincolumn="20" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="PreferencesActivity" method="onCreate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onCreate(Bundle)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/ScannerActivity.java">
+<violation beginline="134" endline="134" begincolumn="18" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="ScannerActivity" method="updateCameraIcon" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'updateCameraIcon()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="209" endline="209" begincolumn="18" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="ScannerActivity" method="handleExportUri" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'handleExportUri(Uri)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/TransferEntriesActivity.java">
+<violation beginline="52" endline="52" begincolumn="20" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="TransferEntriesActivity" method="onCreate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onCreate(Bundle)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="172" endline="172" begincolumn="18" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="TransferEntriesActivity" method="generateQR" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'generateQR()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/MainActivity.java">
+<violation beginline="95" endline="95" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=181, ATFD=329, TCC=10.311%)
+</violation>
+<violation beginline="95" endline="95" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'MainActivity' has a total cyclomatic complexity of 181 (highest 15).
+</violation>
+<violation beginline="256" endline="256" begincolumn="17" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" method="setGroups" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'setGroups(Collection&lt;VaultGroup&gt;)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="444" endline="444" begincolumn="17" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" method="onEntryListTouch" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onEntryListTouch()' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="601" endline="601" begincolumn="18" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" method="onScanImageResult" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onScanImageResult(Intent)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="691" endline="691" begincolumn="18" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" method="importScannedEntries" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'importScannedEntries(List&lt;VaultEntry&gt;)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="815" endline="815" begincolumn="18" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" method="handleIncomingIntent" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'handleIncomingIntent()' has a cyclomatic complexity of 15.
+</violation>
+<violation beginline="894" endline="894" begincolumn="20" endcolumn="27" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" method="onStart" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onStart()' has a cyclomatic complexity of 9.
+</violation>
+<violation beginline="962" endline="962" begincolumn="20" endcolumn="39" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" method="onCreateOptionsMenu" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onCreateOptionsMenu(Menu)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="998" endline="998" begincolumn="28" endcolumn="45" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" method="onQueryTextChange" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onQueryTextChange(String)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="1037" endline="1037" begincolumn="20" endcolumn="41" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" method="onOptionsItemSelected" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onOptionsItemSelected(MenuItem)' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="1114" endline="1114" begincolumn="17" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" method="updateErrorCard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'updateErrorCard()' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="1299" endline="1299" begincolumn="17" endcolumn="25" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="MainActivity" method="onLocked" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onLocked(boolean)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="1405" endline="1405" begincolumn="24" endcolumn="43" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui" class="ActionModeCallbacks" method="onActionItemClicked" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onActionItemClicked(ActionMode, MenuItem)' has a cyclomatic complexity of 12.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java">
+<violation beginline="55" endline="55" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.ui.dialogs" class="Dialogs" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=56, ATFD=180, TCC=0.000%)
+</violation>
+<violation beginline="99" endline="99" begincolumn="27" endcolumn="44" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.dialogs" class="Dialogs" method="getVaultEntryName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getVaultEntryName(Context, VaultEntry)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="194" endline="194" begincolumn="25" endcolumn="44" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.dialogs" class="Dialogs" method="showTextInputDialog" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'showTextInputDialog(Context, int, int, int, TextInputListener, OnCancelListener, boolean, String)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java">
+<violation beginline="68" endline="68" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.ui.fragments.preferences" class="ImportExportPreferencesFragment" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=58, ATFD=115, TCC=3.810%)
+</violation>
+<violation beginline="350" endline="350" begincolumn="18" endcolumn="53" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.fragments.preferences" class="ImportExportPreferencesFragment" method="startGoogleAuthenticatorStyleExport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'startGoogleAuthenticatorStyleExport()' has a cyclomatic complexity of 12.
+</violation>
+<violation beginline="442" endline="442" begincolumn="18" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.fragments.preferences" class="ImportExportPreferencesFragment" method="startExportVault" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'startExportVault(int, StartExportCallback, EntryFilter)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/SecurityPreferencesFragment.java">
+<violation beginline="300" endline="300" begincolumn="20" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.fragments.preferences" class="SecurityPreferencesFragment" method="getAutoLockSummary" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getAutoLockSummary()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/glide/SvgDecoder.java">
+<violation beginline="28" endline="28" begincolumn="26" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.glide" class="SvgDecoder" method="decode" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'decode(InputStream, int, int, Options)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/intro/SlideIndicator.java">
+<violation beginline="54" endline="54" begincolumn="17" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.intro" class="SlideIndicator" method="setCurrentSlide" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'setCurrentSlide(int)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="68" endline="68" begincolumn="20" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.intro" class="SlideIndicator" method="onDraw" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onDraw(Canvas)' has a cyclomatic complexity of 7.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/slides/SecurityPickerSlide.java">
+<violation beginline="48" endline="48" begincolumn="18" endcolumn="40" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.slides" class="SecurityPickerSlide" method="updateBiometricsOption" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'updateBiometricsOption(boolean)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="73" endline="73" begincolumn="17" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.slides" class="SecurityPickerSlide" method="onSaveIntroState" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onSaveIntroState(Bundle)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/slides/SecuritySetupSlide.java">
+<violation beginline="117" endline="117" begincolumn="20" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.slides" class="SecuritySetupSlide" method="isFinished" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'isFinished()' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/tasks/IconOptimizationTask.java">
+<violation beginline="25" endline="25" begincolumn="41" endcolumn="55" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.tasks" class="IconOptimizationTask" method="doInBackground" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'doInBackground(Map&lt;UUID, VaultEntryIcon&gt;[])' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/tasks/ImportFileTask.java">
+<violation beginline="27" endline="27" begincolumn="22" endcolumn="36" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.tasks" class="ImportFileTask" method="doInBackground" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'doInBackground(Params[])' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/tasks/ImportIconPackTask.java">
+<violation beginline="26" endline="26" begincolumn="41" endcolumn="55" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.tasks" class="ImportIconPackTask" method="doInBackground" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'doInBackground(Params[])' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/tasks/PasswordSlotDecryptTask.java">
+<violation beginline="34" endline="34" begincolumn="26" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.tasks" class="PasswordSlotDecryptTask" method="decrypt" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'decrypt(List&lt;PasswordSlot&gt;, char[])' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="48" endline="48" begincolumn="26" endcolumn="45" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.tasks" class="PasswordSlotDecryptTask" method="decryptPasswordSlot" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'decryptPasswordSlot(PasswordSlot, char[])' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/tasks/QrDecodeTask.java">
+<violation beginline="24" endline="24" begincolumn="28" endcolumn="42" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.tasks" class="QrDecodeTask" method="doInBackground" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'doInBackground(List&lt;Uri&gt;[])' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/views/AuditLogHolder.java">
+<violation beginline="85" endline="85" begincolumn="17" endcolumn="43" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="AuditLogHolder" method="getEventTypeDescriptionRes" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getEventTypeDescriptionRes(EventType)' has a cyclomatic complexity of 8.
+</violation>
+<violation beginline="106" endline="106" begincolumn="17" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="AuditLogHolder" method="getIconResource" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getIconResource(EventType)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/views/EntryHolder.java">
+<violation beginline="45" endline="45" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryHolder" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=85, ATFD=95, TCC=13.763%)
+</violation>
+<violation beginline="45" endline="45" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryHolder" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'EntryHolder' has a total cyclomatic complexity of 85 (highest 12).
+</violation>
+<violation beginline="121" endline="121" begincolumn="17" endcolumn="24" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryHolder" method="setData" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'setData(VaultEntry, CodeGrouping, ViewMode, AccountNamePosition, boolean, boolean, boolean, boolean, boolean, boolean, boolean)' has a cyclomatic complexity of 12.
+</violation>
+<violation beginline="168" endline="168" begincolumn="18" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryHolder" method="setAccountNameLayout" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'setAccountNameLayout(AccountNamePosition, Boolean)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="309" endline="309" begincolumn="20" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryHolder" method="getOtp" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getOtp(int)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="334" endline="334" begincolumn="20" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryHolder" method="formatCode" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'formatCode(String)' has a cyclomatic complexity of 8.
+</violation>
+<violation beginline="380" endline="380" begincolumn="18" endcolumn="40" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryHolder" method="updateTextViewWithDots" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'updateTextViewWithDots(TextView, String, String)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="421" endline="421" begincolumn="17" endcolumn="41" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryHolder" method="startExpirationAnimation" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'startExpirationAnimation()' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/views/EntryAdapter.java">
+<violation beginline="53" endline="53" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryAdapter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=145, ATFD=117, TCC=15.575%)
+</violation>
+<violation beginline="53" endline="53" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryAdapter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'EntryAdapter' has a total cyclomatic complexity of 145 (highest 11).
+</violation>
+<violation beginline="194" endline="194" begincolumn="21" endcolumn="36" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryAdapter" method="isEntryFiltered" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'isEntryFiltered(VaultEntry)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="367" endline="367" begincolumn="17" endcolumn="27" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryAdapter" method="onItemMove" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onItemMove(int, int)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="407" endline="407" begincolumn="36" endcolumn="54" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryAdapter" method="onCreateViewHolder" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onCreateViewHolder(ViewGroup, int)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="437" endline="437" begincolumn="17" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryAdapter" method="onBindViewHolder" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onBindViewHolder(ViewHolder, int)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="466" endline="466" begincolumn="29" endcolumn="36" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" method="onClick" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onClick(View)' has a cyclomatic complexity of 13.
+</violation>
+<violation beginline="575" endline="575" begincolumn="18" endcolumn="40" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryAdapter" method="updatePeriodUniformity" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'updatePeriodUniformity()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="594" endline="594" begincolumn="16" endcolumn="37" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryAdapter" method="getMostFrequentPeriod" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getMostFrequentPeriod()' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="633" endline="633" begincolumn="17" endcolumn="27" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryAdapter" method="focusEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'focusEntry(VaultEntry, int)' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="664" endline="664" begincolumn="18" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryAdapter" method="resetFocus" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'resetFocus()' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="915" endline="915" begincolumn="24" endcolumn="39" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="DiffCallback" method="areItemsTheSame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'areItemsTheSame(int, int)' has a cyclomatic complexity of 9.
+</violation>
+<violation beginline="937" endline="937" begincolumn="24" endcolumn="42" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="DiffCallback" method="areContentsTheSame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'areContentsTheSame(int, int)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/views/EntryListView.java">
+<violation beginline="64" endline="64" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryListView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'EntryListView' has a total cyclomatic complexity of 77 (highest 7).
+</violation>
+<violation beginline="419" endline="419" begincolumn="17" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="EntryListView" method="onEntryAdded" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'onEntryAdded(VaultEntry)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="558" endline="558" begincolumn="21" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="VerticalSpaceItemDecoration" method="getItemOffsets" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getItemOffsets(Rect, View, RecyclerView, State)' has a cyclomatic complexity of 12.
+</violation>
+<violation beginline="598" endline="598" begincolumn="22" endcolumn="45" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="VerticalSpaceItemDecoration" method="decorateFavoriteEntries" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'decorateFavoriteEntries(MaterialCardView, RecyclerView)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="642" endline="642" begincolumn="21" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="TileSpaceItemDecoration" method="getItemOffsets" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getItemOffsets(Rect, View, RecyclerView, State)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/ui/views/IconAdapter.java">
+<violation beginline="42" endline="42" begincolumn="17" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.ui.views" class="IconAdapter" method="loadIcons" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'loadIcons(IconPack, boolean)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/util/IOUtils.java">
+<violation beginline="39" endline="39" begincolumn="24" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.util" class="IOUtils" method="clearDirectory" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'clearDirectory(File, boolean)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/util/TimeUtils.java">
+<violation beginline="16" endline="16" begincolumn="26" endcolumn="41" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.util" class="TimeUtils" method="getElapsedSince" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getElapsedSince(Context, Date)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/util/PreferenceParser.java">
+<violation beginline="56" endline="56" begincolumn="25" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.util" class="PreferenceParser" method="skip" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'skip(XmlPullParser)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/util/UUIDMap.java">
+<violation beginline="70" endline="70" begincolumn="17" endcolumn="21" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.util" class="UUIDMap" method="move" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'move(T, T)' has a cyclomatic complexity of 9.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/vault/Vault.java">
+<violation beginline="27" endline="27" begincolumn="23" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="Vault" method="toJson" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toJson(EntryFilter)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="54" endline="54" begincolumn="25" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="Vault" method="fromJson" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fromJson(JSONObject)' has a cyclomatic complexity of 13.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/vault/VaultEntry.java">
+<violation beginline="19" endline="19" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultEntry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=50, ATFD=17, TCC=8.374%)
+</violation>
+<violation beginline="77" endline="77" begincolumn="30" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultEntry" method="fromJson" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fromJson(JSONObject)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/vault/VaultBackupManager.java">
+<violation beginline="70" endline="70" begincolumn="18" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultBackupManager" method="createBackup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'createBackup(File, BackupsVersioningStrategy, Uri, int)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="84" endline="84" begincolumn="18" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultBackupManager" method="createBackup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'createBackup(File, Uri)' has a cyclomatic complexity of 9.
+</violation>
+<violation beginline="110" endline="110" begincolumn="18" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultBackupManager" method="createBackup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'createBackup(File, Uri, int)' has a cyclomatic complexity of 13.
+</violation>
+<violation beginline="163" endline="163" begincolumn="18" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultBackupManager" method="enforceVersioning" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'enforceVersioning(DocumentFile, int)' has a cyclomatic complexity of 9.
+</violation>
+<violation beginline="215" endline="215" begincolumn="32" endcolumn="45" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="FileInfo" method="parseFilename" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'parseFilename(String)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="301" endline="301" begincolumn="21" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="StrictDateFormat" method="parse" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'parse(String, ParsePosition)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/vault/VaultEntryIcon.java">
+<violation beginline="75" endline="75" begincolumn="27" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultEntryIcon" method="fromJson" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fromJson(JSONObject)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/vault/VaultFile.java">
+<violation beginline="62" endline="62" begincolumn="29" endcolumn="37" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultFile" method="fromJson" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fromJson(JSONObject)' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="144" endline="144" begincolumn="30" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="Header" method="fromJson" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fromJson(JSONObject)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="158" endline="158" begincolumn="27" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="Header" method="toJson" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toJson()' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/vault/VaultHtmlExporter.java">
+<violation beginline="30" endline="30" begincolumn="24" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultHtmlExporter" method="export" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'export(Context, PrintStream, Collection&lt;VaultEntry&gt;)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/vault/VaultManager.java">
+<violation beginline="31" endline="31" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultManager" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=51, ATFD=18, TCC=11.594%)
+</violation>
+<violation beginline="139" endline="139" begincolumn="17" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultManager" method="saveAndBackup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'saveAndBackup()' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="164" endline="164" begincolumn="17" endcolumn="31" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultManager" method="scheduleBackup" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'scheduleBackup()' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/vault/VaultRepository.java">
+<violation beginline="30" endline="30" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultRepository" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=75, ATFD=44, TCC=32.119%)
+</violation>
+<violation beginline="30" endline="30" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultRepository" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'VaultRepository' has a total cyclomatic complexity of 75 (highest 7).
+</violation>
+<violation beginline="92" endline="92" begincolumn="35" endcolumn="43" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultRepository" method="fromFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fromFile(Context, VaultFile, VaultFileCredentials)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="114" endline="114" begincolumn="10" endcolumn="14" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultRepository" method="save" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'save()' has a cyclomatic complexity of 6.
+</violation>
+<violation beginline="166" endline="166" begincolumn="17" endcolumn="31" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultRepository" method="exportFiltered" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'exportFiltered(OutputStream, VaultFileCredentials, EntryFilter)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="191" endline="191" begincolumn="17" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault" class="VaultRepository" method="exportGoogleUris" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'exportGoogleUris(OutputStream, EntryFilter)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/vault/slots/SlotList.java">
+<violation beginline="81" endline="81" begincolumn="21" endcolumn="31" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault.slots" class="SlotList" method="exportable" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'exportable()' has a cyclomatic complexity of 9.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/com/beemdevelopment/aegis/vault/slots/Slot.java">
+<violation beginline="51" endline="51" begincolumn="22" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault.slots" class="Slot" method="getKey" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getKey(Cipher)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="117" endline="117" begincolumn="24" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.vault.slots" class="Slot" method="fromJson" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fromJson(JSONObject)' has a cyclomatic complexity of 8.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/info/guardianproject/trustedintents/ApkSignaturePin.java">
+<violation beginline="77" endline="77" begincolumn="20" endcolumn="51" rule="CyclomaticComplexity" ruleset="Design" package="info.guardianproject.trustedintents" class="ApkSignaturePin" method="doFingerprintsMatchCertificates" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'doFingerprintsMatchCertificates()' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/main/java/info/guardianproject/trustedintents/TrustedIntents.java">
+<violation beginline="22" endline="22" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="info.guardianproject.trustedintents" class="TrustedIntents" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=59, ATFD=29, TCC=7.353%)
+</violation>
+<violation beginline="149" endline="149" begincolumn="21" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="info.guardianproject.trustedintents" class="TrustedIntents" method="isIntentSane" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'isIntentSane(Intent)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="225" endline="225" begincolumn="17" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="info.guardianproject.trustedintents" class="TrustedIntents" method="checkTrustedSigner" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'checkTrustedSigner(Signature[])' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="241" endline="241" begincolumn="20" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="info.guardianproject.trustedintents" class="TrustedIntents" method="areSignaturesEqual" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'areSignaturesEqual(Signature[], Signature[])' has a cyclomatic complexity of 8.
+</violation>
+<violation beginline="255" endline="255" begincolumn="17" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="info.guardianproject.trustedintents" class="TrustedIntents" method="startActivity" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'startActivity(Context, Intent)' has a cyclomatic complexity of 6.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/test/java/com/beemdevelopment/aegis/crypto/otp/TOTPTest.java">
+<violation beginline="73" endline="73" begincolumn="26" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.crypto.otp" class="TOTPTest" method="getSeed" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getSeed(String)' has a cyclomatic complexity of 5.
+</violation>
+</file>
+<file name="/tmp/Aegis/app/src/test/java/com/beemdevelopment/aegis/importers/DatabaseImporterTest.java">
+<violation beginline="35" endline="35" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DatabaseImporterTest" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=78, ATFD=93, TCC=0.067%)
+</violation>
+<violation beginline="35" endline="35" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.beemdevelopment.aegis.importers" class="DatabaseImporterTest" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.10.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'DatabaseImporterTest' has a total cyclomatic complexity of 78 (highest 3).
+</violation>
+</file>
+</pmd>

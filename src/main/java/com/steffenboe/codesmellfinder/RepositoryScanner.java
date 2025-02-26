@@ -13,14 +13,14 @@ import org.slf4j.LoggerFactory;
 import com.squareup.okhttp.HttpUrl;
 import com.squareup.okhttp.Request;
 
-class GitHub {
+class RepositoryScanner {
 
-    private static final Logger LOG = LoggerFactory.getLogger(GitHub.class);
+    private static final Logger LOG = LoggerFactory.getLogger(RepositoryScanner.class);
     
     private final RestClient restClient;
     private final PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer;
 
-    GitHub(RestClient restClient, PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer) {
+    RepositoryScanner(RestClient restClient, PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer) {
         this.restClient = restClient;
         this.pmdStaticCodeAnalyzer = pmdStaticCodeAnalyzer;
     }

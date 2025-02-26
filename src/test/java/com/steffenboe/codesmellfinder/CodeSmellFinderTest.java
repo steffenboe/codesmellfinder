@@ -14,7 +14,7 @@ class CodeSmellFinderTest {
 
     @Test
     void shouldFindCodeSmellsFromRepository() throws IOException {
-        GitHub githubScanner = new GitHub(
+        RepositoryScanner githubScanner = new RepositoryScanner(
                 new RestClient(
                         new OkHttpClient()),
                 new PMDStaticCodeAnalyzer("src/main/resources/rulesets/custom-ruleset.xml"));
