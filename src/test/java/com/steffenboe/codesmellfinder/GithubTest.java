@@ -36,7 +36,7 @@ class GithubTest {
         jsonObject.put("items", new JSONArray(items));
         when(restClient.execute(any())).thenReturn(jsonObject.toString());
         GitHub github = new GitHub(restClient, new PMDStaticCodeAnalyzer());
-        Optional<GitRepository> repository = github.findRandom();
+        Optional<GitRepository> repository = github.findRandomWithRuleViolations();
         assertThat(repository.get().name(), not(blankOrNullString()));
     }
 }

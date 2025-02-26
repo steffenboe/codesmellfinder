@@ -11,7 +11,7 @@ class RepositoryTest {
     void shouldFindCodeSmell() {
         GitRepository repository = new GitRepository("library",
                 "https://github.com/steffenb91/library.git", new PMDStaticCodeAnalyzer());
-        assertThat(repository.findAndScan().size(), greaterThan(0));
+        assertThat(repository.scan().size(), greaterThan(0));
 
     }
 }

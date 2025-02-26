@@ -18,7 +18,7 @@ class CodeSmellFinderTest {
                 new RestClient(
                         new OkHttpClient()),
                 new PMDStaticCodeAnalyzer("src/main/resources/rulesets/custom-ruleset.xml"));
-        Optional<GitRepository> repository = githubScanner.findRandom();
+        Optional<GitRepository> repository = githubScanner.findRandomWithRuleViolations();
         assertThat(repository.isPresent(), is(true));
     }
 }

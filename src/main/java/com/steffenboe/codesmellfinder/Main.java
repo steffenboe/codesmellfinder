@@ -10,6 +10,6 @@ public class Main {
             new RestClient(
                 new OkHttpClient()), 
                 new PMDStaticCodeAnalyzer());
-        githubScanner.findRandom();
+        githubScanner.findRandomWithRuleViolations();
     }
 }

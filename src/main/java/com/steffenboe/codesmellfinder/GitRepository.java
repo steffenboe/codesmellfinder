@@ -33,7 +33,7 @@ class GitRepository {
      * 
      * @return rule violations detected by PMD
      */
-    public List<CodeSmell> findAndScan() {
+    public List<CodeSmell> scan() {
         String repositoryDirectory = cloneRepo();
         LOG.info("Cloned " + repositoryDirectory);
         List<CodeSmell> codeSmells = staticCodeAnalyzer.analyze(repositoryDirectory);

@@ -15,9 +15,10 @@ import com.squareup.okhttp.Request;
 
 class GitHub {
 
-    private final RestClient restClient;
     private static final Logger LOG = LoggerFactory.getLogger(GitHub.class);
-    private PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer;
+    
+    private final RestClient restClient;
+    private final PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer;
 
     GitHub(RestClient restClient, PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer) {
         this.restClient = restClient;
@@ -25,26 +26,24 @@ class GitHub {
     }
 
     /**
-     * Finds a random Git-Repository containing at least one Code Smell
-     * 
-     * @return a {@link GitRepository} containing at least one Code Smell, or empty
+     * @return a {@link GitRepository} containing at least one Rule Violation, or empty
      *         if not found
      * @throws IOException
      */
-    Optional<GitRepository> findRandom() throws IOException {
-        LOG.info("Starting repository scan...");
+    Optional<GitRepository> findRandomWithRuleViolations() throws IOException {
+        LOG.info("Searching repositories...");
         String url = searchUrl();
         Request request = request(url);
-        JSONArray items = response(restClient, request);
+        JSONArray items = response(request);
         List<GitRepository> gitRepositories = getRepositoriesFromResponse(items);
         return searchForCodeSmells(gitRepositories);
     }
 
     private Optional<GitRepository> searchForCodeSmells(List<GitRepository> repositories) {
         for (GitRepository gitRepository : repositories) {
-            LOG.info("Scanning repo {} for codesmells...", gitRepository.name());
-            if (gitRepository.findAndScan().size() > 0) {
-                LOG.info("Found repo with code smells: {}", gitRepository.url());
+            LOG.info("Scanning repo {} for rule violations...", gitRepository.name());
+            if (gitRepository.scan().size() > 0) {
+                LOG.info("Found repo with rule violations: {}", gitRepository.url());
                 return Optional.of(gitRepository);
             }
         }
@@ -64,8 +63,8 @@ class GitHub {
         return new GitRepository(repository.getString("name"), repository.getString("clone_url"), pmdStaticCodeAnalyzer);
     }
 
-    private JSONArray response(RestClient client, Request request) throws IOException {
-        String response = client.execute(request);
+    private JSONArray response(Request request) throws IOException {
+        String response = restClient.execute(request);
         LOG.debug("Calling {}", request.urlString());
         JSONObject jsonResponse = new JSONObject(response);
         JSONArray items = jsonResponse.getJSONArray("items");
