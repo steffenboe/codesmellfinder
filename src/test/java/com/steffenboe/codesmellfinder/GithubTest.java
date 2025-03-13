@@ -18,25 +18,24 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-
 @ExtendWith(MockitoExtension.class)
 class GithubTest {
 
     @Mock
     private RestClient restClient;
 
+    // TODO failing test
     @Test
     void shouldFindRandomProject() throws IOException {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("total_count", 2938);
         jsonObject.put("incomplete_results", true);
         List<JSONObject> items = new ArrayList<>();
-        items.add(new JSONObject().put("name", "testrepo"));
-        items.add(new JSONObject().put("clone_url", "testrepo.git"));
+        items.add(new JSONObject().put("name", "testrepo").put("clone_url", "testrepo.git"));
         jsonObject.put("items", new JSONArray(items));
         when(restClient.execute(any())).thenReturn(jsonObject.toString());
         GitHub github = new GitHub(restClient, new PMDStaticCodeAnalyzer());
-        Optional<GitRepository> repository = github.findRandomWithRuleViolations();
+        Optional<GitRepository> repository = github.findRandomWithRuleViolations("java");
         assertThat(repository.get().name(), not(blankOrNullString()));
     }
 }

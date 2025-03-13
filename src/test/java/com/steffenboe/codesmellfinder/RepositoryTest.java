@@ -7,11 +7,12 @@ import org.junit.jupiter.api.Test;
 
 class RepositoryTest {
 
+    // TODO failing test
     @Test
     void shouldFindCodeSmell() {
         GitRepository repository = new GitRepository("library",
                 "https://github.com/steffenb91/library.git", new PMDStaticCodeAnalyzer());
-        assertThat(repository.scan().size(), greaterThan(0));
+        assertThat(repository.scan(System.getProperty("java.io.tmpdir")).size(), greaterThan(0));
 
     }
 }
