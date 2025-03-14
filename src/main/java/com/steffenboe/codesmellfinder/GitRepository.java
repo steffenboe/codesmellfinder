@@ -15,7 +15,7 @@ class GitRepository {
     private final String url;
 
     private static final Logger LOG = LoggerFactory.getLogger(GitRepository.class);
-    
+
     GitRepository(String name, String url, PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer) {
         this.name = name;
         this.url = url;
@@ -23,22 +23,29 @@ class GitRepository {
     }
 
     /**
-     * Scans the repository with static code analyzer PMD.
+     * Scans the repository with static code analyzer PMD. Expects the repository to
+     * be cloned to the directoryPath.
+     * 
+     * @param directoryPath path to the cloned repository, must not be empty
      * 
      * @return rule violations detected by PMD
      */
-    public List<CodeSmell> scan(String repositoryDirectory) {
-        List<CodeSmell> codeSmells = staticCodeAnalyzer.analyze(repositoryDirectory);
+    List<CodeSmell> scan(String directoryPath) {
+        List<CodeSmell> codeSmells = staticCodeAnalyzer.analyze(directoryPath);
+        cleanUp(directoryPath);
+        return codeSmells;
+
+    }
+
+    private void cleanUp(String directoryPath) {
         try {
-            LOG.debug("Deleting {}", repositoryDirectory);
-            FileUtils.deleteDirectory(new File(repositoryDirectory));
+            LOG.debug("Deleting {}", directoryPath);
+            FileUtils.deleteDirectory(new File(directoryPath));
             LOG.debug("Deletion successful!");
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        return codeSmells;
-
     }
 
     public String name() {
