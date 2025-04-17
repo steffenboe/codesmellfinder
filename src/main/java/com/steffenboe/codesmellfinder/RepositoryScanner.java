@@ -19,10 +19,22 @@ class RepositoryScanner {
     
     private final RestClient restClient;
     private final PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer;
+    private final String language;
 
+    /**
+     * Create a RepositoryScanner with default language (java).
+     */
     RepositoryScanner(RestClient restClient, PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer) {
+        this(restClient, pmdStaticCodeAnalyzer, "java");
+    }
+
+    /**
+     * Create a RepositoryScanner for a specific language.
+     */
+    RepositoryScanner(RestClient restClient, PMDStaticCodeAnalyzer pmdStaticCodeAnalyzer, String language) {
         this.restClient = restClient;
         this.pmdStaticCodeAnalyzer = pmdStaticCodeAnalyzer;
+        this.language = language;
     }
 
     /**
@@ -79,7 +91,8 @@ class RepositoryScanner {
 
     private String searchUrl() {
         HttpUrl.Builder urlBuilder = HttpUrl.parse("https://api.github.com/search/repositories").newBuilder();
-        urlBuilder.addQueryParameter("q", "language:java");
+        // Search query including configurable language
+        urlBuilder.addQueryParameter("q", "language:" + language);
         urlBuilder.addQueryParameter("per_page", "30");
         urlBuilder.addQueryParameter("sort", "stars");
         urlBuilder.addQueryParameter("order", "desc");
